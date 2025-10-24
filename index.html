@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quimera</title>
+  <link rel="stylesheet" href="CSS/home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="shortcut icon" href="img/Quimera.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="img/Quimera.png" alt="Logo de Quimera" width="90" height="90">
+
+    </div>
+    <div class="acao">
+      <div class="caixa-busca">
+        <label for="search-input" class="sr-only"></label>
+        <input type="search" id="search-input" placeholder="Buscar produtos..." aria-label="Buscar produtos">
+        <button type="submit" aria-label="Botão de busca"><img
+            src="https://cdn-icons-png.flaticon.com/512/622/622669.png" alt="Lupa"></button>
+      </div>
+      <div class="cadastro">
+        <a href="HTML/registrar.html">Login/Cadastrar<i class="fa-solid fa-circle-user"
+            style="font-size: 30px; display: flex; align-items: center; justify-content: center;"></i></a>
+
+
+      </div>
+      <div class="pop-up">
+        <button id="pop-up-botao">Linguagens</button>
+        <div id="pop-up-janela" class="escondido">
+          <a href="#">Portugues</a>
+          <a href="#">Ingles</a>
+          <a href="#">Espanhol</a>
+        </div>
+      </div>
+      <div class="carrinho">
+
+        <a href="HTML/carrinho.html"><i class="fa-solid fa-cart-shopping" style="font-size: 30px;"></i></a>
+      </div>
+
+  </header>
+  <div class="navegacao">
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="/HTML/01hardware.html">Hardwares</a>
+      <a href="/HTML/02pcs.html">PCs</a>
+      <a href="/HTML/04acessorios.html">Acessorios</a>
+    </nav>
+  </div>
+
+  <div class="banner">
+    <img src="img/banner.png" alt="Banner Principal" width="100%" height="500px">
+  </div>
+  <div class="ofertas-dia">
+    <h1 id="idofertas">Ofertas do dia</h1>
+    <div class="ofertas-grid">
+      <div class="oferta-coluna">
+        <h2>Mais vendidos</h2>
+        <div class="oferta-produtos">
+          <a href="HTML/pc_gamer.html" class="oferta-card">
+            <img src="img/img1.png" alt="Chuwi corebook x gaming laptop amd R5-7430U">
+            <div class="oferta-info">
+              <p>Chuwi corebook x gaming laptop amd R5-7430U 6...</p>
+              <span class="preco">R$2.150,97</span>
+              <span class="preco-antigo">R$3.729,22</span>
+            </div>
+          </a>
+          <a href="/HTML/mini_computador.html" class="oferta-card">
+            <img
+              src="https://imgs.search.brave.com/G8fPPGKjqy_i8ayep3DIwcDgahNiDUbhtOddX_-bNZA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hZS1w/aWMtYTEuYWxpZXhw/cmVzcy1tZWRpYS5j/b20va2YvUzYzODY0/MGU1MjA1YjRiYmJi/YTVkZjNmYjg2M2Q0/YzFjVy5qcGc"
+              alt="GMKtec-G3 Mini Computador Desktop">
+            <div class="oferta-info">
+              <p>GMKtec-G3 Mini Computador Desktop...</p>
+              <span class="preco">R$636,78</span>
+              <span class="preco-antigo">R$2.144,04</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="oferta-coluna">
+        <h2>SuperOfertas</h2>
+        <div class="oferta-produtos">
+          <a href="/HTML/camera.html" class="oferta-card">
+            <img src="https://m.media-amazon.com/images/I/71lo3vzJAaL._AC_SX679_.jpg"
+              alt="G-Anica Câmera de fotografia digital compacta">
+            <div class="oferta-info">
+              <p>G-Anica Câmera de fotografia digital compacta...</p>
+              <span class="preco">R$655,27</span>
+              <span class="preco-antigo">R$1.334,54</span>
+            </div>
+          </a>
+          <a href="/HTML/garrafa.html" class="oferta-card">
+            <img src="/img/garrafa.jfif" alt="Garrafa de água portátil de metal">
+            <div class="oferta-info">
+              <p>Garrafa de água portátil de metal, à prova de...</p>
+              <span class="preco">R$6,99</span>
+              <span class="preco-antigo">R$28,63</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="oferta-coluna">
+        <h2>Big Save</h2>
+        <div class="oferta-produtos">
+          <a href="/HTML/laptoptablet.html" class="oferta-card">
+            <img src="img/laptoptablet.webp" alt="Chuwi minibook x laptop tablet 2 em 1">
+            <div class="oferta-info">
+              <p>Chuwi minibook x laptop tablet 2 em 1...</p>
+              <span class="preco">R$1.991,77</span>
+              <span class="preco-antigo">R$6.551,95</span>
+            </div>
+          </a>
+          <a href="/HTML/cameradigital.html" class="oferta-card">
+            <img src="img/cameradigitalk.webp" alt="NOVA câmera digital KODAK PIXPRO C1">
+            <div class="oferta-info">
+              <p>NOVA câmera digital KODAK PIXPRO C1 tudo...</p>
+              <span class="preco">R$762,85</span>
+              <span class="preco-antigo">R$1.761,02</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section>
+    <h1 style="text-align: center; margin: 3%;">Produtos</h1>
+    <div class="produtos">
+
+      <a href="HTML/produto7.html" class="produtos-card">
+        <img
+          src="https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages8.kabum.com.br%2Fprodutos%2Ffotos%2F227818%2Fheadset-gamer-redragon-zeus-chroma-mk-ii-rgb-surround-7-1-usb-drivers-53mm-preto-vermelho-h510-rgb_1631555309_gg.jpg&w=640&q=75"
+          alt="Headset Gamer Redragon Zeus X RGB">
+        <div class="oferta-info">
+          <p>Headset Gamer Redragon Zeus X RGB Surround 7.1</p>
+          <span class="preco">R$499,90</span>
+        </div>
+      </a>
+
+      <a href="HTML/produto8.html" class="produtos-card">
+        <img src="img/Logitech G Pro X Superlight Wireless.jpg" alt="Mouse Logitech G Pro X Superlight">
+        <div class="oferta-info">
+          <p>Mouse Gamer Logitech G Pro X Superlight Wireless</p>
+          <span class="preco">R$799,00</span>
+        </div>
+      </a>
+
+      <a href="HTML/produto9.html" class="produtos-card">
+        <img src="img/Corsair K60 Pro RGB (Switch Red).webp" alt="Teclado Mecânico RGB Corsair K60 Pro">
+        <div class="oferta-info">
+          <p>Teclado Mecânico Corsair K60 Pro RGB Switch Red</p>
+          <span class="preco">R$649,90</span>
+        </div>
+      </a>
+
+      <a href="/HTML/produto10.html" class="produtos-card">
+        <img src="img/AOC Monitor Gamer Hero 27″ 165 Hz.jpg" alt="Monitor Gamer AOC 27'' 165Hz">
+        <div class="oferta-info">
+          <p>Monitor Gamer AOC Hero 27" 165Hz 1ms</p>
+          <span class="preco">R$1.349,00</span>
+        </div>
+      </a>
+
+      <a href="/HTML/produto11.html" class="produtos-card">
+        <img
+          src="https://a-static.mlcdn.com.br/%7Bw%7Dx%7Bh%7D/cadeira-gamer-husky-gaming-blizzard-preto-com-almofadas-reclinavel-descanso-de-braco-2d-hgma005/kabum/92728/1ba063de328daf3d97c1b20a1f48c800.jpeg"
+          alt="Cadeira Gamer Husky Blizzard">
+        <div class="oferta-info">
+          <p>Cadeira Gamer Husky Blizzard Reclinável Preta</p>
+          <span class="preco">R$1.099,00</span>
+        </div>
+      </a>
+
+      <a href="/HTML/produto12.html" class="produtos-card">
+        <img src="img/Kingston NV2 1 TB NVMe PCIe 4.0.jpg" alt="SSD Kingston NV2 1TB NVMe">
+        <div class="oferta-info">
+          <p>SSD Kingston NV2 1TB NVMe PCIe 4.0</p>
+          <span class="preco">R$469,90</span>
+        </div>
+      </a>
+
+      <a href="/HTML/produto13.html" class="produtos-card">
+        <img src="img/NVIDIA GeForce RTX 4060 8GB GDDR6.jpg" alt="Placa de vídeo RTX 4060 8GB">
+        <div class="oferta-info">
+          <p>Placa de Vídeo NVIDIA RTX 4060 8GB GDDR6</p>
+          <span class="preco">R$2.499,00</span>
+        </div>
+      </a>
+
+      <a href="/HTML/produto14.html" class="produtos-card">
+        <img src="img/Ryzen 5 5600G 6 núcleos  12 threads.jpg" alt="Processador Ryzen 5 5600G">
+        <div class="oferta-info">
+          <p>Processador AMD Ryzen 5 5600G 6 núcleos 12 threads</p>
+          <span class="preco">R$799,90</span>
+        </div>
+      </a>
+
+      <a href="/HTML/produto15.html" class="produtos-card">
+        <img src="img/ASUS Prime B550M-A WiFi AM4.png" alt="Placa-mãe B550M ASUS Prime">
+        <div class="oferta-info">
+          <p>Placa-Mãe ASUS Prime B550M-A WiFi AM4</p>
+          <span class="preco">R$899,00</span>
+        </div>
+      </a>
+
+      <a href="/HTML/produto16.html" class="produtos-card">
+        <img src="img/Corsair Vengeance LPX 16 GB (2×8 GB) DDR4.jpg" alt="Memória RAM Corsair Vengeance 16GB">
+        <div class="oferta-info">
+          <p>Memória RAM Corsair Vengeance LPX 16GB (2x8GB)</p>
+          <span class="preco">R$459,90</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+</body>
+
+</html>
