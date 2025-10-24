@@ -1,0 +1,116 @@
+/* Layout base */
+* { box-sizing: border-box; }
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #4cc448 0%, #348306 100%);
+  min-height: 100vh;
+  color: #333;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+/* Wrapper central */
+.auth-wrapper { width: 100%; max-width: 900px; }
+
+/* Card */
+.quadrado {
+  width: 100%;
+  max-width: 640px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 15px 40px rgba(0,0,0,.15);
+  padding: 32px 28px 28px;
+  margin: 0 auto;
+  position: relative;
+}
+.close-btn {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #94a3b8;
+  text-decoration: none;
+}
+.close-btn:hover { color: #475569; }
+
+/* Título */
+.quadrado h1 {
+  margin: 4px 0 8px;
+  font-size: 26px;
+  font-weight: 800;
+  text-align: center;
+  color: #222;
+}
+
+/* Mensagem de segurança */
+.security-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #16a34a;
+  font-weight: 600;
+  margin: 8px 0 16px;
+}
+.check-icon { background: #16a34a; color: #fff; border-radius: 999px; padding: 2px 7px; font-size: 12px; }
+
+/* Banner promocional */
+.promo-banner {
+  width: 100%;
+  background: #ecfdf5;
+  border: 1px solid #bbf7d0;
+  color: #065f46;
+  border-radius: 10px;
+  padding: 12px 14px;
+  text-align: center;
+  margin: 0 auto 18px;
+}
+.tag-icon { margin-right: 6px; }
+
+/* Formulário */
+.login-form { display: flex; flex-direction: column; gap: 10px; }
+.label { font-size: 14px; color: #475569; font-weight: 600; }
+.email-input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.email-input:focus { outline: none; border-color: #34d399; box-shadow: 0 0 0 3px rgba(52,211,153,.15); }
+.hint { font-size: 12px; color: #64748b; }
+
+/* Botão */
+.btn-continue {
+  margin-top: 6px;
+  width: 100%;
+  background: #16a34a;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+}
+.btn-continue:hover { background: #15803d; transform: translateY(-1px); box-shadow: 0 8px 20px rgba(22,163,74,.25); }
+
+/* Informações/links */
+.terms { text-align: center; margin: 16px 0 8px; font-size: 13px; color: #475569; }
+.terms a { color: #15803d; text-decoration: none; }
+.terms a:hover { text-decoration: underline; }
+.help-links { text-align: center; }
+.help-links a { color: #0f172a; font-weight: 600; text-decoration: none; }
+.help-links a:hover { text-decoration: underline; }
+
+/* Responsividade */
+@media (max-width: 480px) {
+  .quadrado { padding: 24px 18px; }
+  .search-box { width: 100%; }
+}

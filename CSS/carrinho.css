@@ -1,0 +1,41 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    color: #333;
+    animation: fadeInUp 1s ease-out;
+}
+.carrinho-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.carrinho-vazio {
+    text-align: center;
+    padding: 60px 20px;
+    color: #666;
+}
+
+.carrinho-vazio h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.voltar-btn {
+    background: #20d338;
+    color: #000;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.voltar-btn:hover {
+    background: #1bb32e;
+    transform: translateY(-2px);
+}
